@@ -1,11 +1,45 @@
+body {
+  margin: 0;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+/* OVERLAY */
+#overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+
+/* SELO */
+#seal {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 2px solid #d4af37;
+  color: #d4af37;
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 18px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background: rgba(0,0,0,0.4);
+  transition: all 0.4s ease;
+}
+
+#seal:hover {
+  transform: scale(1.05);
+}
+
+/* CARTA */
 #main-image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    left: 53%;
-    transform: translateX(-50%);
-    max-width: 100%;
-    height: auto;
-    
+  max-width: 100%;
+  height: auto;
 }

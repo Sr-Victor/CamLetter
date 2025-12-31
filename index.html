@@ -6,11 +6,22 @@
   <title>Nota Oficial</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
+<body>
+
+  <!-- OVERLAY -->
+  <div id="overlay">
+    <div id="seal">Iniciar leitura</div>
+  </div>
+
+  <!-- CARTA -->
   <img id="main-image" src="teste2.png" alt="Carta Oficial">
 
-<audio id="audio" autoplay loop>
-  <source src="msc.wav" type="audio/wav">
-</audio>
-<body>
+  <!-- ÁUDIO -->
+  <audio id="audio" preload="auto">
+    <source src="msc.wav" type="audio/wav">
+  </audio>
+
+  <script src="app.js"></script>
 </body>
 </html>
